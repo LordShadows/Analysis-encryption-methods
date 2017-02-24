@@ -1,0 +1,53 @@
+.tr-background {
+    -fx-background-color: transparent;
+}
+
+.osxbutton {
+    -fx-background-radius: 6;
+}
+
+.osxbutton.close {
+    -fx-background-color: #dd6660;
+    -fx-border-width: 1px;
+    -fx-border-color: #b55851;
+    -fx-border-radius: 6px;
+}
+
+.osxbutton.close:hover {
+    -fx-background-image: url('../img/Close.png');
+    -fx-background-size: 7px 7px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.osxbutton.min {
+    -fx-background-color: #f5b74f;
+    -fx-border-width: 1px;
+    -fx-border-color: #c59c28;
+    -fx-border-radius: 6px;
+}
+
+.osxbutton.min:hover {
+    -fx-background-image: url('../img/Minus.png');
+    -fx-background-size: 7px 7px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.osxbutton.max {
+    -fx-background-color: #85c343;
+    -fx-border-width: 1px;
+    -fx-border-color: #809d5a;
+    -fx-border-radius: 6px;
+}
+
+.osxbutton.max:hover {
+    -fx-background-image: url('../img/Plus.png');
+    -fx-background-size: 7px 7px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.sm-label:hover {
+    -fx-text-fill: cornflowerblue;
+}
